@@ -1,25 +1,29 @@
 a:link {
   text-decoration: none;
-  color:#777777;
+  color:  color:rgb(255, 255, 255);
+
 
 }
 
 a:visited {
-  color:#777777;
+  color:rgb(255, 255, 255);
 }
 
 a:hover {
   text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 
 a:active {
   text-decoration:none;
+  color:rgb(255, 255, 255);
+
 } 
 
 
 
 body{
-  background-color: rgb(204, 196, 196);
+  background-color: rgb(255, 255, 255);
   
 }
 

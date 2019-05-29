@@ -97,12 +97,21 @@ footer {
   background-color: #666666;
   width: 960px;
   height: 70px;
-  margin-top: 20px;
-  padding: 10px;
   border: 0px solid white;
   border-top: 4px solid #4aaaa5;
-  position:absolute;
+  
+}
 
+#footerpg1 {
+  text-align: center;
+  background-color: #666666;
+  width: 960px;
+  height: 70px;
+  border: 0px solid white;
+  border-top: 4px solid #4aaaa5;
+  overflow:hidden;
+  position: fixed;
+  bottom: 0px;
 }
 
 
