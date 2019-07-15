@@ -1,62 +1,155 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=A, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Isaac's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Homework 2 by Isaac Fiuza</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: rgb(204, 196, 196);
+        }
+
+        .navbar-brand {
+            font-size: 1.95em;
+            color: #4aaaa5;
+            font-family: 'Georgia', Times, Times New Roman, serif;
+        }
+
+        .text-center {
+            background-color: #666666;
+        }
+
+        .card {
+            background-color: #666666;
+            position: bottom;
+        }
+
+        .card-body {
+            font-size: 1.95em;
+            color: #4aaaa5;
+            font-family: 'Georgia', Times, Times New Roman, serif;
+
+        }
+
+        .contains-image {
+            position: relative;
+            float: left;
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .image-description {
+            background-color: #4aaaa5;
+            width: 280px;
+            height: 70px;
+            position: absolute;
+            top: 170px;
+            font-size: 1.45em;
+            color: #ffffff;
+        }
+    </style>
 
 </head>
 
 <body>
-    <div class="container">
-        <header>Isaac Fiuza</header>
-        <div class="menu">
-            <a href="index.html">About Me | </a>
-            <a href="portfolio.html">Portfolio |</a>
-            <a href="contact.html"> Contact Me</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Isaac Fiuza</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact me</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="resume.pdf">My Resume</a>
+                </li>
+    
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-
-        <main>
-
-            <h1>Portfolio</h1>
-            <hr>
-
-
-            <div class="contains-image">
-                <img src="http://lorempixel.com/output/technics-q-c-280-250-10.jpg" alt="pc">
-                <div class="image-description"><a href="https://ifiuza.github.io/Responsive-Portfolio/index.html">
-                    CSS & HTML Project (Responsive) </a></div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        Portfolio
+                    </div>
+                </div>
             </div>
-            <div class="contains-image">
-                <img src="http://lorempixel.com/output/technics-q-c-280-250-7.jpg" alt="pc">
-                <div class="image-description"> <a href="https://ifiuza.github.io/Bootstrap-Portfolio/index.html">
-                    Bootstrap Project</a></div>
-            </div>
-            <div class="contains-image">
-                <img src="http://lorempixel.com/output/technics-q-c-280-250-4.jpg" alt="pc">
-                <div class="image-description"><a href="https://ifiuza.github.io/wordguessgame/index.html">
-                    
-                    JavaScritp Project </a></div>
-            </div>
-            <div class="contains-image">
-                <img src="http://lorempixel.com/output/technics-q-c-280-250-1.jpg" alt="pc">
-                <div class="image-description"><a href="https://ifiuza.github.io/unit-4-game/index.html">
-                    JQuery Project</a></div>
-            </div>
-            <div class="contains-image">
-                <img src="http://lorempixel.com/output/technics-q-c-280-250-1.jpg" alt="pc">
-                <div class="image-description"><a href="https://ifiuza.github.io/TriviaGame">
-                    JavaScritp Project 2</a></div>
-            </div>
+        </div>
+        <p><b>You can reach me by phone or email at (801)979-4813 /  fiuzaisaac@hotmail.com</p>
+       <p> Also check me out on <a href="https://github.com/ifiuza">
+            My GitHub  </a>and <a href="https://www.linkedin.com/in/isaac-fiuza-2b9104100/"> My Linkedin</a></b></p>
 
 
-        </main>
-        <footer>by Isaac © 2019</footer>
+        <a href="https://ifiuza.github.io/Responsive-Portfolio/index.html">
+        <b> CSS & HTML Project (Responsive)</b> </a>
+        <a href="https://github.com/ifiuza/Responsive-Portfolio"> - See Code on GitHub</a>
+
+        <br><a href="https://ifiuza.github.io/Bootstrap-Portfolio/index.html">
+        <b>Bootstrap Project</b></a>
+        <a href="https://github.com/ifiuza/Bootstrap-Portfolio"> - See Code on GitHub</a>
+        
+        <br><a href="https://ifiuza.github.io/wordguessgame/index.html">
+        <b> JavaScript Project</b> </a>
+        <a href="https://github.com/ifiuza/wordguessgame"> - See Code on GitHub</a>
+        
+        <br><a href="https://ifiuza.github.io/unit-4-game/index.html">
+        <b> JQuery Project</b></a>
+        <a href="https://github.com/ifiuza/unit-4-game"> - See Code on GitHub</a>
+
+        
+        <br><a href="https://ifiuza.github.io/TriviaGame/">
+        <b> JavaScript Project 2</b></a>
+        <a href="https://github.com/ifiuza/TriviaGame"> - See Code on GitHub</a>
+        
+        <br><a href="https://ifiuza.github.io/gifTastic/">
+        <b>  GifTastic Project</b></a>
+        <a href="https://github.com/ifiuza/gifTastic"> - See Code on GitHub</a>
+           
+        <br><a href="https://ifiuza.github.io/trainscheduler/">
+        <b> Train Scheduler Project</b></a>
+        <a href="https://github.com/ifiuza/trainscheduler"> - See Code on GitHub</a>
+        
+        <br><a href=" https://zuzethromo.github.io/CryptoNewsConsolidator/">
+        <b>   Project I</b></a>
+        <a href=" https://github.com/zuzethromo/CryptoNewsConsolidator"> - See Code on GitHub</a>
+
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="text-center">
+                           <a href="index.html"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+                           <a href="portfolio.html"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+                           <a href="contact.html"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+                           <a href="resume.pdf"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
 </body>
 
 </html>

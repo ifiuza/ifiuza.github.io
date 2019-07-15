@@ -1,38 +1,120 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About me</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=A, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IsaacFiuza HW-2</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+    body {
+      background-color: rgb(204, 196, 196);
+    }
+
+    .navbar-brand {
+      font-size: 1.95em;
+      color: #4aaaa5;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    .text-center {
+      background-color: #666666;
+    }
+
+    .card {
+      background-color: #666666;
+      position: relative;
+    }
+
+    .card-body {
+      font-size: 1.95em;
+      color: #4aaaa5;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+
+
+    }
+  </style>
+
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Isaac Fiuza</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.pdf">My Resume</a>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
   <div class="container">
-    <header>Isaac Fiuza</header>
-    <div class="menu">
-        <a href="index.html">About Me  | </a>
-        <a href="portfolio.html">Portfolio  |</a>
-        <a href="contact.html"> Contact Me</a>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            About Me
+          </div>
+        </div>
+      </div>
     </div>
+    <div id="about" class="row">
+      <div class="col-lg-3">
+        <img class="img img-thumbnail" src="me.jpg">
+      </div>
+      <div id="about" class="col-lg-9">
+        <h2>My background</h2>
+        <p> Hello my name is Isaac Fiuza. I was born in California in 1986 in the Bay Area.
+          I also lived in Brazil as a kid and moved back to the U.S in 2001 where I have been living since then
+          in Salt Lake City.</p>
 
+        <h2>Currently Studying</h2>
+        I graduated from Salt Lake Community College in 2015 with an associates in C.S with two cerificates, one in
+        software
+        development and another in Computer Essentials. I am currently enrolled in a Bootcamp for Web
+        development at the University of Utah and will be graduating in the end of October this year.
 
-    <main>
-      <h1>About Me</h1>
-      <hr><br>
-
-      <img id="me"src="./assets\images\me.jpg" alt="" srcset="my picture">
-
-      <p>My name is Isaac Fiuza. I was born in California and grew up in Brazil until I was 14 when I came back to the
-        U.S
-        in 2001.
-        I graduated from SLCC in 2016 with an associates in C.S with two cerificates, one in software development and
-        another in Computer Essentials. I decided to do this bootcamp to learn more and get all the skills I need to
-        become a Web Developer.</p>
-      <br>
-    </main>
-    <footer id="footerpg1">by Isaac © 2019</footer>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="text-center">
+              <a href="index.html"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+              <a href="portfolio.html"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+              <a href="contact.html"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+              <a href="resume.pdf"> <img class="" src="http://placehold.it/50x50" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
