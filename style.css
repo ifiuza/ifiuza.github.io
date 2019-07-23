@@ -26,3 +26,11 @@
 
   }
 
+  a{
+   color: lightslategray;   
+  }
+
+  a:visited{
+      color: none;
+  }
+
