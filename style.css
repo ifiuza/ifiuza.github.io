@@ -17,6 +17,12 @@
     padding: 30px;
 
 }  
+.card-body {
+    font-size: 1em;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align:center;
 
 
+  }
 
