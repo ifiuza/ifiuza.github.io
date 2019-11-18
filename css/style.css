@@ -1,0 +1,153 @@
+a:link {
+  text-decoration: none;
+  color:  color:rgb(255, 255, 255);
+
+
+}
+
+a:visited {
+  color:rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+
+} 
+
+
+
+body{
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 0px;
+  width: 960px;
+  color:#777777;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 1.25em;
+}
+
+.menu{
+  text-align: right;
+  margin-top: -35px;
+  margin-left: 100px;
+
+}
+
+hr{
+  border-color:#dddddd;
+}
+
+h1{
+   color:#4aaaa5;
+   font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#me{
+  padding-top: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-top:16px;
+  clear:both;
+  border-radius: 20px;
+  width: 210px;
+  height: 230px;
+
+}
+p {
+  text-align: justify;
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+  font-size: 1.4em;
+
+}
+
+header {
+  border-radius: 15px;
+  background-color:#4aaaa5 ;
+  color:#ffffff;
+  text-align: left;
+  font-size: 1.95em;
+  width: 215px;
+  height:60px;
+  padding: 5px;
+  border: 0px solid white;
+
+}
+
+
+main {
+  border-top: 1px solid #dddddd;
+  background-color:;
+  margin-top: 30px;
+  width: 960px;
+  height: 680px;
+  padding: 10px;
+}
+
+
+footer {
+  text-align: center;
+  background-color: #666666;
+  width: 960px;
+  height: 70px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 0px solid white;
+  border-top: 4px solid #4aaaa5;
+  position:absolute;
+
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  #msg{
+  height: 200px;
+  }
+
+  .contains-image{
+    position:relative;
+    float:left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .image-description{
+   background-color: #4aaaa5;
+   width: 280px;
+   height:70px;  
+   position:absolute;
+   top:170px;
+   font-size: 1.45em;
+   color:#ffffff;
+
+  }
