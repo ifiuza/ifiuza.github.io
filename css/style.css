@@ -36,6 +36,10 @@ body{
   font-size: 1.25em;
 }
 
+#about {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .menu{
   text-align: right;
   margin-top: -35px;
