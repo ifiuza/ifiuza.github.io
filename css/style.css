@@ -36,6 +36,10 @@ body{
   font-size: 1.25em;
 }
 
+#about {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .menu{
   text-align: right;
   margin-top: -35px;
@@ -101,11 +105,11 @@ footer {
   background-color: #666666;
   width: 960px;
   height: 70px;
-  margin-top: 20px;
+  margin-bottom: -200px;
   padding: 10px;
   border: 0px solid white;
   border-top: 4px solid #4aaaa5;
-  position:absolute;
+  position:fixed;
 
 }
 
